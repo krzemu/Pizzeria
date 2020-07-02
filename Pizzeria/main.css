@@ -1,0 +1,274 @@
+body{
+    background-color:#cccccc;
+    margin:auto;
+}
+header{
+ background-color:#1e1e1ef8;
+ color:#c3c3c3;
+ border-bottom:1px solid #3c3c3c;
+ position:sticky;
+ top:0;
+}
+.Plogo{
+    margin-left:20px;
+}
+
+.Plogo img{
+    width:120px;
+    height:120px;
+    float:left;
+}
+
+.Tlogo{
+    margin-top:60px;
+    font-size:38px;
+    margin-left:40px;
+    float:left;
+}
+
+.nav{
+    float:right;
+    margin-right:20px;
+    height:120px;
+}
+
+
+
+.starter{
+    background-image: url("img/starter2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: calc(100vh - 141px);
+}
+
+.stopka{
+    width:350px;
+    height:200px;
+    background-color:#080808c2;
+    border-radius:15px;
+    position: absolute;
+    top:60vh;
+    left:200px;
+}
+
+.stopka p{
+    color:#a5a4a4;
+    font-size:18px;
+    text-align:center;
+}
+
+.button{
+    width:60px;
+    height:20px;
+    padding:10px;
+    font-size:18px;
+    background-color:#150850;
+    border-radius:15px;
+    margin-left:130px;
+    margin-top:50px;
+    text-align:center;
+    color:#a5a4a4;
+    text-transform:uppercase;
+}
+
+.button:hover{
+    background-color:#040740;
+    color:#a4a3a3;
+}
+
+ er{ 
+    height:20px;
+    background-color:#1e1e1e;
+    text-align:center;
+    color:#a5a4a4;
+}
+
+a{
+    text-decoration:none;
+    color:#eeeeee;
+}
+
+ol{
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    margin-top:70px;
+    font-size:20px;
+    display:inline-block;
+}
+
+ol a{
+    text-decoration: none;
+    color:#eeeeee
+}
+
+ol > li{
+    float:left;
+    margin-right:20px;
+    margin-left:20px;
+    width:80px;
+    text-align:center;
+}
+
+ol > li:first-child{
+    width:120px;
+}
+
+ol > li a:hover{
+    color:#b60000;
+}
+
+
+/* Menu.html*/
+
+article{
+	width:1000px;
+	margin-left:auto;
+    margin-right:auto;
+    min-height: calc(100vh - 161px);
+	
+}
+
+.title{
+	font-size:35px;
+	text-align:center;
+	width:980px;
+	padding:10px;
+	margin-top:20px;
+	margin-bottom:20px;
+	
+}
+section{
+    width:996px;
+    
+}
+
+/* Box */
+
+
+.product{
+
+	border:2px solid #3c3c3c;
+	background-color:#d4d4d4;
+	height:140px;
+	margin-top:10px;
+	margin-bottom:10px;
+	
+}
+
+
+
+.simg{
+	margin-top:20px;
+	margin-left:50px;
+	float:left;
+
+}
+.simg img{
+	width:150px;
+	height:100px;
+}
+
+.stext{
+	float:left;
+	font-size:16px;
+	text-align:left;
+    width:300px;
+    font-size:15px;
+    margin-left:20px;
+}
+.price{
+   
+   float:right;
+   margin-right:10px;
+    text-align:center;
+    height:140px;
+
+}
+
+.info{
+    width:100px;
+    padding-bottom:7px;
+}
+
+.checkButton{
+    float:right;
+    width:120px;
+    background-color:rgb(139, 9, 9);
+    text-align:center;
+    height:25px;
+    margin-top:20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.checkButton:hover{
+    background-color:rgb(104, 7, 7);
+    color:#888888;
+}
+
+
+
+/* End */
+
+/* Aside */
+
+aside{
+    float:left;
+}
+
+.menu{
+    width:150px;
+    margin-left:40px;
+    margin-top:30px;
+    float:left;
+    border:1px solid #3c3c3c;
+    border-radius: 10px;
+}
+
+ul{
+    list-style-type:none;
+    font-size:18px;
+    padding:0;
+    margin:0;
+}
+
+
+ul > li{
+    text-align:center;
+    padding:5px;
+    background-color:#756a6a;
+    border-bottom:1px solid #3c3c3c;
+    border-radius:3px;
+    cursor: pointer;
+}
+
+ul > li:first-child{
+    background-color:#473333;
+    
+
+}
+
+ul > li:hover{
+    background-color:#472222;
+    color:#cccccc;
+}
+
+ul > li:first-child:hover{
+    background-color:#473333;
+    color:#000000;
+    cursor: default;
+}
+
+#name{
+    text-align:center;
+}
+
+
+footer{
+    height:20px;
+    width:100%;
+    background-color:#1c1c1c;
+    color:#eeeeee;
+    text-align:center;
+}
